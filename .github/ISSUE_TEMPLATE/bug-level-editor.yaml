@@ -1,0 +1,40 @@
+name: 🐞 Bug - Level Editor
+description: Create an issue for a bug/issue you discovered in the level editor
+title: "Enter a precise title here!"
+labels: [level editor, bug]
+body:
+  - type: dropdown
+    id: bug-level-dropdown1
+    attributes:
+      label: How are you using the tools?
+      description: Did you download it from the Exor github or via Steam?
+      options:
+        - Github download
+        - Steam
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-level-text1
+    attributes:
+      label: Enter your bug description.
+      placeholder: What is happening?
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-level-text2
+    attributes:
+      label: How can this bug be reproduced?
+      placeholder: What are the necessary steps?
+    validations:
+      required: true
+
+  - type: input
+    id: bug-level-input1
+    attributes:
+      label: Tool version
+      description: What version are your tools? - Look at the title bar of the editor to find out.
+      placeholder: "Example: TC_4950"
+    validations:
+      required: true

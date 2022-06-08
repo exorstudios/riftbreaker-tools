@@ -1,0 +1,12 @@
+name: 💡 Feature Request - Mission Editor
+description: Create an issue for a feature request in the mission editor
+title: "Enter a precise title here!"
+labels: [mission editor, enhancement]
+body:
+  - type: textarea
+    id: featurerequest-mission-text1
+    attributes:
+      label: Enter your feature description.
+      placeholder: What is missing? What could be improved?
+    validations:
+      required: true

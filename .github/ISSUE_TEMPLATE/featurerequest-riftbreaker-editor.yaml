@@ -1,0 +1,12 @@
+name: 💡 Feature Request - Riftbreaker Editor
+description: Create an issue for a feature request in the riftbreaker editor
+title: "Enter a precise title here!"
+labels: [riftbreaker editor, enhancement]
+body:
+  - type: textarea
+    id: featurerequest-riftbreaker-text1
+    attributes:
+      label: Enter your feature description.
+      placeholder: What is missing? What could be improved?
+    validations:
+      required: true
