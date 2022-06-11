@@ -1,0 +1,12 @@
+name: 💡 Feature Request - Workspace Editor
+description: Create an issue for a feature request in the workspace editor
+title: "Enter a precise title here!"
+labels: [workspace editor, enhancement]
+body:
+  - type: textarea
+    id: featurerequest-workspace-text1
+    attributes:
+      label: Enter your feature description.
+      placeholder: What is missing? What could be improved?
+    validations:
+      required: true
