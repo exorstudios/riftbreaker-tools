@@ -1,2 +1,0 @@
-xcopy /s /i /y "exor-exporter" "%userprofile%\Documents\Allegorithmic\Substance Painter\plugins\exor-exporter"
-xcopy /s /i /y "export-presets" "%userprofile%\Documents\Allegorithmic\Substance Painter\shelf\export-presets"
