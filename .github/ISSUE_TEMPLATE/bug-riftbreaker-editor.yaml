@@ -31,7 +31,7 @@ body:
       required: true
 
   - type: input
-    id: bug-riftbreaker-input1
+    id: tools-version
     attributes:
       label: Tool version
       description: What version are your tools? - Look at the title bar of the editor to find out.
